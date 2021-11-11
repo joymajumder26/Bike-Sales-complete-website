@@ -1,0 +1,49 @@
+.services-container img {
+    height: 150px;
+    transition: .4s;
+}
+.caption-post-section.text-center p {
+    color: #0effc3e7;
+    font-weight: 700;
+    padding: 12px 0;
+}
+.caption-post-section.text-center h4 {
+    color: #ddd;
+    font-size: 20px;
+    position: relative;
+    bottom: 12px;
+}
+.caption-post-section.text-center h6 {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 22px;
+}
+.card-section {
+    padding: 35px 20px;
+    background: #716b69c0;
+    border-radius: 10px;
+    transition: .4s;
+    
+    margin: 0 11px;
+}
+.card-section:hover .services-container img  {
+    height: 120px;
+    width: 120px;
+    
+    padding: 8px;
+    border-radius: 100%;
+    transform-origin: top center;
+}
+.card-section:hover {
+  border-radius: 20px;
+   transform: translateY(-3px);
+  
+}
+.explore{
+    background-color: brown;
+}
+.font{
+    font-family:'Times New Roman', Times, serif;    
+}

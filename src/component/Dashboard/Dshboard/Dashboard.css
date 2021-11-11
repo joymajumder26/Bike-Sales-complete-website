@@ -1,0 +1,27 @@
+/* main{
+    margin-top: 60px;
+    
+    min-height: 90vh;
+    padding: 1rem 3rem;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+.dash-title{
+    color: tomato ;
+    margin-bottom: 1rem;
+
+}
+/* .dash-title:hover{
+    box-shadow: 2px 2px 2px 2px;
+} */
+.card-body{
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.dash-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+}

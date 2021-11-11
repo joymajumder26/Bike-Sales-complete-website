@@ -1,0 +1,45 @@
+.testomonial-section{
+    background: url(../../../images/fp1.jpg)no-repeat top center fixed;
+    padding:140px 0;
+    background-size: cover;
+    position: relative;
+
+}
+.testomonial-section::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.788);
+}
+
+button.visibility {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.the-service-hading.text-center.py-5 h1 {
+    font-size: 37px;
+    margin-bottom: 45px;
+    position: relative;
+    color: #e6e0e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.the-service-hading.text-center.py-5 h5 {
+    font-size: 15px;
+    
+    position: relative;
+    color: #e6e0e0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.the-service-hading.text-center.py-5 h1 span {
+    color: #ff2424;
+    font-weight: 700;
+}
+.the-service-hading.text-center.py-5 h5  {
+    color: #24fff4;
+    font-weight: 700;
+}
+
