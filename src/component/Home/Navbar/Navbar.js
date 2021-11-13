@@ -38,7 +38,7 @@ const Navbar = () => {
                         </li>
                         {/* login */}
                         <li>
-                            <Link to='/login'>{loggedInUser.email ? <Link to='/home' className='position' onClick={() => setLoggedIn('')}>Sing Out</Link> : 'Sing In'}</Link>
+                            <Link to='/login'>{loggedInUser.email ? <Link to='/home' className='position' onClick={() => setLoggedIn('')}>Sign Out</Link> : 'Sign In'}</Link>
                             <span className='text-white'>Signed in as:</span> <a href="#login">{loggedInUser?.displayName}</a>
 
                         </li>
